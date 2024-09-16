@@ -86,6 +86,19 @@ const App = () => {
     setCurrentNumber(String(pow));
   }
 
+  const handleLeftover = () => {
+    if(firstNumber === '0') {
+      setFirstNumber(String(currentNumber));
+      setCurrentNumber('');
+      setOperation('%');
+    }
+    else {
+      const leftOver = Number(firstNumber) % Number(currentNumber);
+      setCurrentNumber(String(leftOver));
+      setOperation('');
+    }
+  }
+
   const handleEquals = () => {
     if(firstNumber !== '0' && operation !== '' && currentNumber !== '0') {
       switch(operation) {
@@ -100,6 +113,9 @@ const App = () => {
           break;
           case '/':
             handleDivideNumbers();
+            break;
+          case '%':
+            handleLeftover();
             break;
         default: 
           break;
@@ -141,6 +157,7 @@ const App = () => {
           <Button label="+" onClick={handleSumNumbers}/>
         </Row>
         <Row>
+          <Button label="%" onClick={handleLeftover}/>
           <Button label="=" onClick={handleEquals}/>
         </Row>
       </Content>

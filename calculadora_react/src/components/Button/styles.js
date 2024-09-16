@@ -2,21 +2,16 @@ import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
     padding: 10px;
-    margin: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: inset 2px 3px 4px 0px #FFFFFF33, inset -2px -1px 4px 0px #00000066, 3px 4px 10px #00000077;
     background-color: #7a7777;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     flex: 1;
-    box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.7);
 
     &:hover {
     opacity: 0.6;
     }
-
-     @media (min-width: 760px) {
-        
-  }
 `
