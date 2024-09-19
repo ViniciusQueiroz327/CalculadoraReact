@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/CalculadoraReact/static/js/main.df05a9dc.js",
-    "index.html": "/CalculadoraReact/index.html",
-    "main.df05a9dc.js.map": "/CalculadoraReact/static/js/main.df05a9dc.js.map"
+    "main.js": "/calculadora_react/static/js/main.f9849784.js",
+    "index.html": "/calculadora_react/index.html",
+    "main.f9849784.js.map": "/calculadora_react/static/js/main.f9849784.js.map"
   },
   "entrypoints": [
-    "static/js/main.df05a9dc.js"
+    "static/js/main.f9849784.js"
   ]
 }
