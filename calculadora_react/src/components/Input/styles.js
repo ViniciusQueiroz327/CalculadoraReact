@@ -17,7 +17,7 @@ export const InputContainer = styled.div`
         width: 85%;
         height: 70px;
         background-color: #7ea389;
-        box-shadow: inset -2px -3px 4px 0px #00000066, inset 3px 2px 4px 0px #00000066;
+        box-shadow: inset -3px -3px 4px 0px #00000066, inset 3px 3px 4px 0px #00000066;
         border: 0;
         border-radius: 10px;
         padding: 0 10px;
